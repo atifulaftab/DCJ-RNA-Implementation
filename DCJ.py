@@ -53,5 +53,5 @@ def dcj(firstPermutation,secondPermutation,chr_a,chr_d,chr_i,chr_del):
       
     print("No of rearrangement operation: ",count)
     
-        
+    return firstAdjacency   
     
