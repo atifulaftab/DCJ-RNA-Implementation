@@ -21,8 +21,8 @@ from fileReading import readFile
 from allignComponents import allignComponents
 from result import result
 
-structure_1=readFile('cyano-1.txt')
-structure_2=readFile('flavo-1.txt')
+structure_1=readFile('Cyano-1.txt')
+structure_2=readFile('Flavo-1.txt')
 no_inter_first=len(structure_1)
 no_inter_second=len(structure_2)
 structure_1=structure_1.transpose()

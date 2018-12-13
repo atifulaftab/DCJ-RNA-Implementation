@@ -10,7 +10,7 @@ from DCJ import dcj
 
 def result(allignment,no_inter_first,no_inter_second):
     sortArray=np.zeros((3,no_inter_second+1))
-    threshhold=0.6
+    threshhold=.6
     firstPermutation=[]
     secondPermutation=[]
     chr_a=[]
@@ -28,7 +28,7 @@ def result(allignment,no_inter_first,no_inter_second):
                 elif(y>0):
                      for a in range(0,len(allignment),1): 
                          for b in range(0,len(allignment[0]),1):
-                               if(allignment.max() >= threshhold):
+                               if(allignment.max() > threshhold):
                                    data=np.unravel_index(allignment.argmax(),allignment.shape)
                                    data=np.array(data)
                                    row=data[0:1,]
