@@ -10,7 +10,7 @@ from DCJ import dcj
 
 def result(allignment,no_inter_first,no_inter_second):
     sortArray=np.zeros((3,no_inter_second+1))
-    threshhold=.6
+    threshhold=0.1
     firstPermutation=[]
     secondPermutation=[]
     chr_a=[]
